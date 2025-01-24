@@ -9,8 +9,6 @@ import Quiz from './components/Quiz';
 import AwarenessClasses from './components/AwarnessClasses';
 import Complaints from './components/Complaints';
 import EcoChallenges from './components/EcoChallenges';
-import SustainableCafeteria from './components/SustainableCafeteria';
-import VolunteerSignup from './components/VolunteerSignup';
 
 function App() {
   return (
@@ -24,8 +22,6 @@ function App() {
     <Route path='/awarenessclasses' element={<AwarenessClasses/>}/>
     <Route path='/complaints' element={<Complaints/>}/>
     <Route path='/eco-challenges' element={<EcoChallenges/>}/>
-    <Route path='/sustainable-cafeteria' element={<SustainableCafeteria/>}/>
-    <Route path='/volunteer' element={<VolunteerSignup/>}/>
    </Routes>
    </BrowserRouter>
   );

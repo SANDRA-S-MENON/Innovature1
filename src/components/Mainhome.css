@@ -1,0 +1,67 @@
+/* Navbar Styling */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-link {
+    color: #fff !important;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #66bb6a !important;
+  }
+  
+  /* Main Content Styling */
+  .main-home-content {
+    background: linear-gradient(135deg, #e8f5e9, #c8e6c9); /* Light green gradient */
+    min-height: 100vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  /* Card Styling */
+  .content-box {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .content-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    color: #2e7d32;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #424242;
+  }
+  
+  /* Button Styling */
+  .btn-success { background-color: #388e3c; border: none; }
+  .btn-primary { background-color: #0288d1; border: none; }
+  .btn-danger { background-color: #d32f2f; border: none; }
+  .btn-warning { background-color: #ffa000; border: none; }
+  .btn-info { background-color: #0288d1; border: none; }
+  .btn-secondary { background-color: #6c757d; border: none; }
+  
+  .btn:hover { opacity: 0.9; }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .main-home-content h1 {
+      font-size: 1.8rem;
+    }
+  
+    .main-home-content p {
+      font-size: 1rem;
+    }
+  }
+  

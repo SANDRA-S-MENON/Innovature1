@@ -1,0 +1,81 @@
+.volunteer-signup {
+    text-align: center;
+    margin: 40px;
+    padding: 20px;
+  }
+  
+  .volunteer-signup h1 {
+    color: #4caf50;
+    font-size: 36px;
+  }
+  
+  .volunteer-signup p {
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .signup-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f8f4;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signup-form .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .signup-form .form-group label {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .signup-form .form-group input,
+  .signup-form .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .signup-form .form-group textarea {
+    height: 120px;
+  }
+  
+  .submit-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+  
+  h2 {
+    color: #3e8e41;
+    font-size: 24px;
+    margin-top: 40px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ul li {
+    color: #444;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  

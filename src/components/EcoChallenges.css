@@ -1,0 +1,63 @@
+.eco-challenges {
+    text-align: center;
+    margin: 50px;
+    padding: 20px;
+    border: 2px solid #4caf50;
+    border-radius: 10px;
+    background-color: #f0f8f4;
+  }
+  
+  .eco-challenges h1 {
+    color: #4caf50;
+  }
+  
+  .eco-points h2 {
+    color: #3e8e41;
+    font-weight: bold;
+  }
+  
+  .challenges-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .challenge {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .challenge h3 {
+    color: #3e8e41;
+    font-size: 18px;
+  }
+  
+  .challenge p {
+    color: #555;
+    font-size: 14px;
+  }
+  
+  .join-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .join-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .challenge:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
